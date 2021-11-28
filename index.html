@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms Lab</title>
+</head>
+
+<body>
+<form action="http://mumstudents.org/params.php" method="get">
+<div class="header">
+    <table>
+        <tr>
+            <td class="topic">Workshop Registration</td>
+            <td>More Actions</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+<p class="notice">Register now while seats are available!</p>
+
+<div>
+<table>
+    <tr>
+        <td>First name</td>
+        <td><input class="textfield" type="text" name="name"></td>
+        <td class="underline">Lunch</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Last Name</td>
+        <td><input class="textfield" type="text" name="name"></td>
+        <td>Meal Preference</td>
+        <td>
+            <select name="mealpref">
+                <option>Vegetarian</option>
+                <option>Non-Vegetarian</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Company/Institution</td>
+        <td>
+            <input class="textfield" type="text" name="name">
+        </td>
+        <td class="underline">Payment Details</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Address</td>
+        <td><textarea class="textfield" rows="4" style="resize: none;"> </textarea></td>
+        <td>Payment Mode</td>
+        <td class="normal">
+            <input type="checkbox" name="cash" /> Cash <br>
+            <input type="checkbox" name="cheque" /> Cheque <br>
+            <input type="checkbox" name="demand_draft" /> Demand Draft <br>
+        </td>
+    </tr>
+    <tr>
+        <td>City</td>
+        <td><input class="textfield" type="text" name="name"></td>
+        <td>DD/Cheque No.</td>
+        <td><input class="textfield" type="text" name="name"></td>
+    </tr>
+    <tr>
+        <td>State /Province /Region</td>
+        <td>
+            <select name="state">
+                <option>Iowa</option>
+                <option>South Carolina</option>
+                <option>New York</option>
+                <option>Washington</option>
+            </select>
+
+        </td>
+        <td>Drawn On(Bank Name)</td>
+        <td><input class="textfield" type="text" name="name"></td>
+    </tr>
+    <tr>
+        <td>Country</td>
+        <td>
+            <select name="country">
+                <option>United State</option>
+                <option>United Kingdom</option>
+                <option>Malaysia</option>
+                <option>Japan</option>
+            </select>
+        </td>
+        <td>Payable At</td>
+        <td><input class="textfield" type="text" name="name"></td>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td><input class="textfield" type="text" name="name"></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Phone Number</td>
+        <td><input class="textfield" type="text" name="name"></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+</div>
+
+<div class="footer">
+    <table>
+        <tr>
+            <td class="tdsubmit" ><input class="btnsubmit" type="submit" value="Submit" /></td>
+            <td class="tdreset" ><input class="btnreset" type="reset" value="Reset" /></td>
+        </tr>
+    </table>
+</div>
+</form>
+
+    </body>
+</html>
