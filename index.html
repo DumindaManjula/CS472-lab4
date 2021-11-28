@@ -14,7 +14,13 @@
     <table>
         <tr>
             <td class="topic">Workshop Registration</td>
-            <td>More Actions</td>
+            <td>
+                <select class="moreAction" name="moreaction">
+                    <option>More Action</option>
+                    <option>Track Document</option>
+                    <option>View Schedule</option>
+                </select>
+            </td>
             <td></td>
             <td></td>
         </tr>
@@ -25,13 +31,13 @@
 <div>
 <table>
     <tr>
-        <td>First name</td>
+        <td class="required">First name</td>
         <td><input class="textfield" type="text" name="name"></td>
         <td class="underline">Lunch</td>
         <td></td>
     </tr>
     <tr>
-        <td>Last Name</td>
+        <td class="required">Last Name</td>
         <td><input class="textfield" type="text" name="name"></td>
         <td>Meal Preference</td>
         <td>
@@ -42,7 +48,7 @@
         </td>
     </tr>
     <tr>
-        <td>Company/Institution</td>
+        <td class="required">Company/Institution</td>
         <td>
             <input class="textfield" type="text" name="name">
         </td>
@@ -50,7 +56,7 @@
         <td></td>
     </tr>
     <tr>
-        <td>Address</td>
+        <td class="required">Address</td>
         <td><textarea rows="4" cols="21" style="resize: none;"> </textarea></td>
         <td>Payment Mode</td>
         <td class="normal">
@@ -69,9 +75,9 @@
         <td>State /Province /Region</td>
         <td>
             <select name="state">
+                <option>New York</option>
                 <option>Iowa</option>
                 <option>South Carolina</option>
-                <option>New York</option>
                 <option>Washington</option>
             </select>
 
@@ -93,13 +99,13 @@
         <td><input class="textfield" type="text" name="name"></td>
     </tr>
     <tr>
-        <td>Email</td>
+        <td class="required">Email</td>
         <td><input class="textfield" type="text" name="name"></td>
         <td></td>
         <td></td>
     </tr>
     <tr>
-        <td>Phone Number</td>
+        <td class="required">Phone Number</td>
         <td><input class="textfield" type="text" name="name"></td>
         <td></td>
         <td></td>
